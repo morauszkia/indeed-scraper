@@ -1,5 +1,3 @@
-# Kapanadze_Indeed Scraping 
-
 #Load libraries
 library(RSelenium)
 library(wdman)
