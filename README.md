@@ -22,7 +22,9 @@ You can find below a detailed breakdown of the code's functionality, explaining 
    - `location`: The location of the job.
    - `occupation`: The job title or occupation (in this case, "kuchař").
    - `desc`: A short description of the job.
+   - `type`: Type of employment, full-time or part-time. Note: Some job listings may not have salary information, so it will be `NA`.
    - `salary`: The salary information (if available). Note: Some job listings may not have salary information, so it will be `NA`.
+   - `salaryANDtype`: type+salary. 
    - `date`: The posting date of the job.
 
 8. To extract this information from each job listing, the script uses various XPath expressions for each element on the page. The `getElementTextOrNA` function is created to handle the extraction. If an element is not found or any error occurs during extraction, it returns `NA`.
@@ -31,6 +33,6 @@ You can find below a detailed breakdown of the code's functionality, explaining 
 
 10. The loop continues this process of scraping data from multiple pages until manually stopped.
 
-11. Once the scraping process is complete, the code proceeds to merge the separate vectors (`company`, `rating`, `location`, `occupation`, `desc`, `salary`, and `date`) into a single data frame named `all`.
+11. Once the scraping process is complete, the code proceeds to merge the separate vectors (`company`, `rating`, `location`, `occupation`, `desc`, `salary`, `type`,`salaryANDtype`, and `date`) into a single data frame named `all`.
 
 12. Finally, the script writes the collected data to an Excel file named "cook_cz.xlsx" using the `write.xlsx` function from the `openxlsx` package. 
