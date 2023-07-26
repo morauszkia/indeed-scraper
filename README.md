@@ -22,8 +22,8 @@ You can find below a detailed breakdown of the code's functionality, explaining 
    - `location`: The location of the job.
    - `occupation`: The job title or occupation (in this case, "kuchař").
    - `desc`: A short description of the job.
-   - `type`: Type of employment, full-time or part-time. Note: Some job listings may not have salary information, so it will be `NA`.
-   - `salary`: The salary information (if available). Note: Some job listings may not have salary information, so it will be `NA`.
+   - `type`: Type of employment, full-time or part-time. Note: Some job listings may not have information, so it will be `NA`.
+   - `salary`: The salary information (if available). Note: Some job listings may not have information, so it will be `NA`.
    - `salaryANDtype`: type+salary. 
    - `date`: The posting date of the job.
 
