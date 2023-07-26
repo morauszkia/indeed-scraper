@@ -1,5 +1,5 @@
 # IndeedScraping 🖱️
-Let's dive into the code in more detail 🕵️‍♀️ 
+Let's dive into the code in more detail 🕵️‍♀️
 You can find below a detailed breakdown of the code's functionality, explaining how it performs web scraping to collect job information from the Indeed website, e.g., for the occupation "kuchař" (cook) in the Czech Republic.
 
 
