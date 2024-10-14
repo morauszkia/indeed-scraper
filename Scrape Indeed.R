@@ -12,7 +12,7 @@ remDrPJS$open()
 #setwd("/Users/ketevanikapanadze/chromedriver_mac64")
 
 # Navigate countries websites 
-remDrPJS$navigate('https://cz.indeed.com/')
+#remDrPJS$navigate('https://cz.indeed.com/')
 # dont forget to accept cookies (if any)
 #remDrPJS$navigate('https://de.indeed.com/')
 #remDrPJS$navigate('https://nl.indeed.com/')
@@ -20,7 +20,7 @@ remDrPJS$navigate('https://cz.indeed.com/')
 #remDrPJS$navigate('https://uk.indeed.com/')
 #remDrPJS$navigate('https://ie.indeed.com/')
 #remDrPJS$navigate('https://es.indeed.com/')
-#remDrPJS$navigate('https://hu.indeed.com/')
+remDrPJS$navigate('https://hu.indeed.com/')
 #remDrPJS$navigate('https://ch.indeed.com/')
 
 # Click and check the search-box
